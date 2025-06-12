@@ -3,7 +3,7 @@ use CGI;
 #use strict;
 use Time::Local;
 use Switch;
-$CGI::POST_MAX = 1024*1024*250;
+$CGI::POST_MAX = 1024*1024*1024*1024*250;
 
 my $script_name = $0;
 my $script_dir = $0;
