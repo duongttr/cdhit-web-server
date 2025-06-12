@@ -23,7 +23,7 @@ RUN wget ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.8.1/ncbi-blast-2.
     rm -f ncbi-blast-2.8.1+-x64-linux.tar.gz
 
 #### get cd-hit webserver
-RUN git clone https://github.com/weizhongli/cdhit-web-server.git && \
+RUN git clone https://github.com/duongttr/cdhit-web-server.git && \
     mkdir www && \
     mv cdhit-web-server www && \
     cd /opt/www/cdhit-web-server && \
